@@ -1,0 +1,17 @@
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore build artifacts
+build/
+tests/mock/seftool-mock
+__pycache__/
+build-mac/
+
+# Respaldos del teléfono (llevan IMEI y la identidad del aparato), temporales y binarios
+backup/
+tmp/
+.seftool_tmp/
+script_*.txt
+/seftool
+*.INCOMPLETO
+*.INCOMPLETO.part
